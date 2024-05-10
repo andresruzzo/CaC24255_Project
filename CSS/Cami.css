@@ -64,3 +64,8 @@ footer ul li {
     background-color: #f0f0f0; 
     cursor: pointer; 
 }
+
+.carousel-item img {
+        width: 800px;
+        height: 600px;
+    }
