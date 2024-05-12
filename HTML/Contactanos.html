@@ -5,30 +5,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contactanos</title>
+    <link rel="stylesheet" href="../CSS/Contactanos.css">
 </head>
 
 <body>
-    <h1>Contactanos</h1>
+    <h1>Formulario de contacto</h1>
+    <h3>Escribinos y en breve nos pondremos en contacto con vos</h3>
 
     <div>
         <form action="" method="post">
-            <label for="nombreRemitente">Nombre</label>
+            <label for="nombreRemitente">Nombre<span class="obligatorio">*</span></label>
             <input type="text" name="nombreRemitente" id="nombreRemitente" placeholder="Ingresá tu nombre" required>
 
-            <label for="apellidoRemitente">Apellido</label>
+            <label for="apellidoRemitente">Apellido<span class="obligatorio">*</span></label>
             <input type="text" name="apellidoRemitente" id="apellidoRemitente" placeholder="Ingresá tu apellido"
                 required>
 
-            <label for="emailaddress">E-mail de contacto</label>
+            <label for="emailaddress">E-mail de contacto<span class="obligatorio">*</span></label>
             <input type="email" name="emailaddress" id="emailaddress" placeholder="Ingresá tu email de contacto"
                 required>
 
-            <label for="comentario">Dejanos tu comentario acá abajo</label>
-            <textarea name="comentario" id="comentario" rows="10" cols="40">Máximo 1000 caracteres</textarea>
+            <label for="telefono">Teléfono/Celular<span class="obligatorio">*</span></label>
+            <input type="number" name="telefono" id="telefono"
+                placeholder="Ingresá tu número de teléfono con código de área sin 0 y sin el 15. Por ejemplo: 1133333333"
+                required>
+
+            <label for="comentario">Mensaje<span class="obligatorio">*</span></label>
+            <textarea name="comentario" id="comentario" rows="10" cols="40"
+                placeholder="Dejanos tu comentario (máximo 1000 caracteres)"></textarea>
 
             <input type="reset" value="Limpiar">
             <input type="submit" value="Enviar">
         </form>
+
+        <p class=aviso><span class="obligatorio">*</span>Los campos son obligatorios </p>
     </div>
 </body>
 
