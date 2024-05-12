@@ -6,13 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contactanos</title>
     <link rel="stylesheet" href="../CSS/Contactanos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 
 <body>
+    <div class="formulario">
     <h1>Formulario de contacto</h1>
     <h3>Escribinos y en breve nos pondremos en contacto con vos</h3>
 
-    <div>
         <form action="" method="post">
             <label for="nombreRemitente">Nombre<span class="obligatorio">*</span></label>
             <input type="text" name="nombreRemitente" id="nombreRemitente" placeholder="Ingresá tu nombre" required>
@@ -34,12 +37,13 @@
             <textarea name="comentario" id="comentario" rows="10" cols="40"
                 placeholder="Dejanos tu comentario (máximo 1000 caracteres)"></textarea>
 
-            <input type="reset" value="Limpiar">
-            <input type="submit" value="Enviar">
+            <input class="limpiar" type="reset" value="Limpiar">
+            <input class= "enviar" type="submit" value="Enviar">
         </form>
 
         <p class=aviso><span class="obligatorio">*</span>Los campos son obligatorios </p>
     </div>
+
 </body>
 
 </html>
