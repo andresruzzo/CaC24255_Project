@@ -1,23 +1,59 @@
 * {
     box-sizing: border-box;
     margin: 0;
+
 }
 
 body {
-    background-image: url(https://www.shutterstock.com/shutterstock/photos/2273827283/display_1500/stock-vector-vector-watercolor-art-background-old-paper-marble-stone-beige-watercolour-texture-for-cards-2273827283.jpg);
-    background-size: cover;
+    background-color: white;
 
-}   /* TENEMOS QUE VER LA IMAG DE FONDO PQ LA ACTUAL TIENE MARCA DE AGUA */
-h1 {
-    border: 10px solid white;
-    height: 150px;
-    width: 600px;
-    padding-top: 2%; /* TENEMOS QUE CHEQUEAR BIEN ESTO */
-    margin: 20px auto;
-    text-align:center;
-    font-size: 400%;
-    color: saddlebrown;
 }
+
+.header {
+    display: grid;
+    grid-template-rows: auto auto auto;
+    gap: 15px;
+}
+
+/* REGISTRARSE e INICIAR SESION */
+.upperheader {
+    display: inline-flex;
+    grid-gap: 15px;
+    justify-content: end;
+    margin: 5px;
+    border: 1px solid blue;
+}
+
+
+.registrate,
+.inicio_sesion {
+    text-align: center;
+    /* border: 1px solid blue; DESCOMENTAR PARA VER BIEN CADA "BOTON" */
+}
+
+/* TITULO DE LA WEB */
+.muebleria {
+    display: inline-block;
+      border: 5px solid rgb(0, 0, 0);
+    height: 200px;
+    width: 600px;
+    margin: 20px auto;
+    text-align: center;
+    font-size: 120%;
+    font-family: "Raleway", sans-serif;
+    letter-spacing: 5px;
+    color: peru;
+
+}
+.muebleria h1 { 
+    font-size: 120px;
+}
+
+.navbar {
+    border: 1px dotted violet;
+    height: 60px;
+}
+
 
 .Contactanos {
     display: inline-flex;
@@ -28,7 +64,7 @@ h1 {
 
 }
 
-nav ul li{
+nav ul li {
     border: 1px solid black;
     display: inline;
     text-decoration: none;
@@ -46,7 +82,7 @@ nav ul li{
     margin-top: 2%;
     width: 200px;
     height: 200px;
-} 
+}
 
 
 .navegación {
@@ -80,18 +116,20 @@ nav ul li{
     height: 600px;
 }
 
- .conocenos {
-    display: flex;
-        align-items: center;
+.conocenos {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 5px;
+    align-items: center;
     justify-content: space-evenly;
-    border: 1px solid black;
+    border: 5px solid black;
     margin: 2px auto;
     width: 300px;
     height: 100px;
- }
+}
 
-.conocenos img {
+.redes {
     margin: 2px;
     width: 50px;
     height: 50px;
-    }
+}

@@ -1,3 +1,13 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    background-color: white;
+
+}
+
 .maderera {
     border: 5px solid white;
     height: 80px;
@@ -9,7 +19,7 @@
     font-size: 120%;
     font-family: "Raleway", sans-serif;
     letter-spacing: 5px;
-    color:peru
+    color:peru;
    
    
 }
