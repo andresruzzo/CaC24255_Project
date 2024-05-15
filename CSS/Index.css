@@ -50,8 +50,9 @@ body {
 }
 
 .navbar {
-    border: 1px dotted violet;
+    border: 1px dotted rgb(226, 199, 226);
     height: 60px;
+    margin-left: 20px;
 }
 
 
@@ -65,17 +66,17 @@ body {
 }
 
 nav ul li {
-    border: 1px solid black;
+    /* border: 1px solid black;*/
     display: inline;
     text-decoration: none;
     color: rgb(59, 61, 61);
     margin-left: 3%;
 }
 
-.navbar-brand {
+/*.navbar-brand {
     border: 1px solid blue;
 }
-
+*/
 .imagenes {
     display: flex;
     justify-content: space-around;
