@@ -34,7 +34,7 @@ body {
 /* TITULO DE LA WEB */
 .muebleria {
     display: inline-block;
-      border: 5px solid rgb(0, 0, 0);
+    /* border: 5px solid rgb(0, 0, 0); */
     height: 200px;
     width: 600px;
     margin: 20px auto;
@@ -49,12 +49,38 @@ body {
     font-size: 120px;
 }
 
-.navbar {
+.barranav {    
+    grid-area: "navbar-brand" ;
     border: 1px dotted rgb(226, 199, 226);
-    height: 60px;
-    margin-left: 20px;
+    height: 59px;
+    /* margin-left: 20px; */
 }
 
+/* .barranav a { */
+.container-fluid a {
+   /*  border: 1px solid black; */
+    width: 110px;
+    height: 42px;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: "Raleway", sans-serif;
+    letter-spacing: normal;
+    font-size: 100%;
+    color: #000000A6;
+    padding: 8px;    
+}
+
+a.navbar-brand {
+    margin: 0px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+ul.navbar-nav {
+    width: 500px;
+    padding: 0px;
+    box-sizing: border-box;
+}
 
 .Contactanos {
     display: inline-flex;
