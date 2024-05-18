@@ -8,6 +8,46 @@ body {
 
 }
 
+.barranav {
+    grid-area: "navbar-brand";
+    /* border: 1px dotted rgb(226, 199, 226); */
+    height: 59px;
+    /* margin-left: 20px; */
+}
+
+a.navbar-brand {
+    margin: 0px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+ul.navbar-nav {
+    width: 500px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container-fluid a {
+    /*  border: 1px solid black; */
+    width: 110px;
+    height: 42px;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: "Raleway", sans-serif;
+    letter-spacing: normal;
+    font-size: 100%;
+    color: #000000A6;
+    padding: 8px;
+}
+
+nav ul li {
+    /* border: 1px solid black;*/
+    display: inline;
+    text-decoration: none;
+    color: rgb(59, 61, 61);
+    margin-left: 3%;
+}
+
 .maderera {
     border: 5px solid white;
     height: 80px;
