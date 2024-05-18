@@ -12,14 +12,15 @@ body {
     border: 5px solid white;
     height: 80px;
     width: 600px;
-    padding-top: 0%; /* TENEMOS QUE CHEQUEAR BIEN ESTO */
+    padding-top: 0%;
+    /* TENEMOS QUE CHEQUEAR BIEN ESTO */
     margin: 20px auto;
-   
-    text-align:center;
+
+    text-align: center;
     font-size: 150%;
     font-family: "Raleway", sans-serif;
     letter-spacing: 5px;
-    color:peru;
+    color: peru;
 }
 
 .barranav {
@@ -40,6 +41,7 @@ ul.navbar-nav {
     padding: 0px;
     box-sizing: border-box;
 }
+
 .container-fluid a {
     /*  border: 1px solid black; */
     width: 110px;
@@ -70,7 +72,7 @@ nav ul li {
     width: 500px;
     height: auto;
     padding: 30px;
-    background-color:  rgb(219, 149, 79);
+    background-color: rgb(219, 149, 79);
     border-radius: 20px;
     margin: 0px auto;
 }
@@ -80,7 +82,7 @@ h1 {
     font-size: 35px;
     font-weight: 600;
     font-family: "Montserrat", sans-serif;
-    color:rgb(124, 73, 21);
+    color: rgb(124, 73, 21);
     margin: 20px auto;
     width: fit-content;
     /* border: 2px solid black; */
@@ -105,7 +107,8 @@ label {
     margin-bottom: 5px;
 }
 
-input, textarea {
+input,
+textarea {
     width: 100%;
     height: 25px;
     border: 1px solid rgb(124, 73, 21);
@@ -119,7 +122,7 @@ span {
     font-family: "Montserrat", sans-serif;
     font-size: 15px;
     font-weight: 350;
-    
+
 }
 
 p {
@@ -131,13 +134,39 @@ p {
 }
 
 .mapa {
-    background-color:  rgb(219, 149, 79);
+    background-color: rgb(219, 149, 79);
     margin-right: 100px;
     margin: auto
-    }
+}
 
-    iframe {
-        padding: 5%;
-    }
+iframe {
+    padding: 1%;
+}
 
-    
+.conocenos {
+    display: grid;
+    grid-template-columns: 30px 30px 30px;
+    column-gap: 5px;
+    align-items: center;
+    justify-content: space-evenly;
+    /* border: 5px solid black; */
+    margin: 2px auto;
+    width: 300px;
+    height: 40px;
+}
+
+.conocenos a {
+    width: 30px;
+    height: 30px;
+}
+
+.conocenos img {
+    width: 30px;
+    height: 30px;
+}
+
+footer p {
+    font-size: 100%;
+    text-align: center;
+    margin: 15px 0px 0px 0px;
+}
