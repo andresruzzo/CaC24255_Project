@@ -52,7 +52,7 @@ body {
 
 .barranav {
     grid-area: "navbar-brand";
-    border: 1px dotted rgb(226, 199, 226);
+    /* border: 1px dotted rgb(226, 199, 226); */
     height: 59px;
     /* margin-left: 20px; */
 }
@@ -83,7 +83,7 @@ ul.navbar-nav {
     box-sizing: border-box;
 }
 
-.Contactanos {
+/* .Contactanos {
     display: inline-flex;
     color: black;
     position: absolute;
@@ -91,7 +91,7 @@ ul.navbar-nav {
     top: 5px;
 
 }
-
+ */
 nav ul li {
     /* border: 1px solid black;*/
     display: inline;
@@ -105,12 +105,12 @@ nav ul li {
 }
 */
 
-.navegación {
+/* .navegación {
     display: flex;
     justify-content: space-around;
     margin-top: 2%;
     font-size: x-large;
-}
+} */
 
 
 
@@ -167,9 +167,9 @@ footer p {
 /* .redes {
     
 } */
-.navbar-logo img {
+/* .navbar-logo img {
     max-height: 2%;
-}
+} */
 
 .sobreNosotros {
     max-width: 800px;
