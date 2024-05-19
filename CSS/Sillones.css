@@ -8,13 +8,6 @@ body {
 
 }
 
-.barranav {
-    grid-area: "navbar-brand";
-    /* border: 1px dotted rgb(226, 199, 226); */
-    height: 59px;
-    /* margin-left: 20px; */
-}
-
 a.navbar-brand {
     margin: 0px;
     box-sizing: border-box;
@@ -51,7 +44,7 @@ nav ul li {
 .maderera {
     border: 5px solid white;
     height: 80px;
-    width: 600px;
+    max-width: 600px;
     padding-top: 0%; /* TENEMOS QUE CHEQUEAR BIEN ESTO */
     margin: 20px auto;
    
@@ -77,4 +70,29 @@ img {
     width: 200px;
 }
 
+/* Small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .header {
+        max-width: 100%;
+        max-height: 40%;
+    }
 
+    .maderera h1 h6 {
+        max-width: 98%;
+    }
+
+    .maderera h1 {
+        font-size: 100%;
+    }
+
+    
+
+    .barranav {
+        max-width: 100%;
+    }
+
+    #barra {
+        max-width: 95%;
+    }
+    .catalogo { display: block;}
+}
